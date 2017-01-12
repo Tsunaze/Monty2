@@ -12,6 +12,8 @@
 		B4B7C5E61E277B5100431028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B7C5E41E277B5100431028 /* Main.storyboard */; };
 		B4B7C5E81E277B5100431028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B7C5E71E277B5100431028 /* Assets.xcassets */; };
 		B4B7C5EB1E277B5100431028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B7C5E91E277B5100431028 /* LaunchScreen.storyboard */; };
+		B4B7C5F71E277CCD00431028 /* DoorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C5F61E277CCD00431028 /* DoorEntity.swift */; };
+		B4B7C5FA1E277FC700431028 /* ArrayShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C5F91E277FC700431028 /* ArrayShuffle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B4B7C5E71E277B5100431028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B7C5EA1E277B5100431028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B7C5EC1E277B5100431028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B7C5F61E277CCD00431028 /* DoorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorEntity.swift; sourceTree = "<group>"; };
+		B4B7C5F91E277FC700431028 /* ArrayShuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayShuffle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		B4B7C5DF1E277B5100431028 /* MontyHall2 */ = {
 			isa = PBXGroup;
 			children = (
+				B4B7C5FB1E27821900431028 /* controllers */,
+				B4B7C5F81E277FB200431028 /* extensions */,
+				B4B7C5F21E277B8F00431028 /* entities */,
 				B4B7C5E01E277B5100431028 /* AppDelegate.swift */,
-				B4B7C5E21E277B5100431028 /* ViewController.swift */,
 				B4B7C5E41E277B5100431028 /* Main.storyboard */,
 				B4B7C5E71E277B5100431028 /* Assets.xcassets */,
 				B4B7C5E91E277B5100431028 /* LaunchScreen.storyboard */,
 				B4B7C5EC1E277B5100431028 /* Info.plist */,
 			);
 			path = MontyHall2;
+			sourceTree = "<group>";
+		};
+		B4B7C5F21E277B8F00431028 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7C5F61E277CCD00431028 /* DoorEntity.swift */,
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		B4B7C5F81E277FB200431028 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7C5F91E277FC700431028 /* ArrayShuffle.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		B4B7C5FB1E27821900431028 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7C5E21E277B5100431028 /* ViewController.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B7C5E31E277B5100431028 /* ViewController.swift in Sources */,
+				B4B7C5FA1E277FC700431028 /* ArrayShuffle.swift in Sources */,
+				B4B7C5F71E277CCD00431028 /* DoorEntity.swift in Sources */,
 				B4B7C5E11E277B5100431028 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
